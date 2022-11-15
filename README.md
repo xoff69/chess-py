@@ -4,6 +4,7 @@ Python tool to analyze chess at PGN Format.+ fide rating tracker
 
 https://github.com/niklasf/chess-openings
 
+web scrapping sur des fide id
 
 # TODO 
 bug sur la reconnaissance des ouvertures
