@@ -127,8 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-pgnanlysis/xoff_qc21.pdf
-pgnanlysis/xoff_qc21_game_analysis.txt
+pgnanalysis/xoff_qc21.pdf
+pgnanalysis/xoff_qc21_game_analysis.txt
 .idea/inspectionProfiles/profiles_settings.xml
 .idea/vcs.xml
 .idea/modules.xml
