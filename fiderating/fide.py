@@ -27,7 +27,7 @@ else:
     print("Le fichier reference  n existe pas")
     df_reference = pd.DataFrame(columns=['profileId', 'Nom', 'Standard', 'Rapide', 'Blitz'])
 
-profiles=[45110565,659487,656410,26016460,434523,605506,608742]
+profiles=[45110565,659487,656410,26016460,434523,605506,608742,45166129]
 
 
 
@@ -55,9 +55,9 @@ def determine_evolution(ancien,nouveau):
 
     NR="Not rated"
     if str(ancien)==NR:
-        ancien="-"
+        ancien="NA"
     if str(nouveau) == NR:
-        nouveau = "-"
+        nouveau = "NA"
 
     if ancien==nouveau:
         classement = str(nouveau) + ' ('
