@@ -1,6 +1,8 @@
 # chess-py
 
-Python tool to analyze chess at PGN Format.+ fide rating tracker
+Python tool to analyze chess at PGN Format.
++ fide rating tracker
++ FQE (quebec) rating tracker
 
 https://github.com/niklasf/chess-openings
 
