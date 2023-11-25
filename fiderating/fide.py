@@ -56,18 +56,24 @@ def determine_evolution(ancien,nouveau):
     NR="Not rated"
     if str(ancien)==NR:
         ancien="NA"
-    if str(nouveau) == NR:
+    if str(nouveau) == NR or str(nouveau) == "":
         nouveau = "NA"
 
     if ancien==nouveau:
         classement = str(nouveau) + ' ('
         classement=classement+"="
-    elif ancien<nouveau:
-        classement = str(nouveau) + ' (' + str(ancien) + " "
-        classement = classement + "+"
     else:
-        classement = str(nouveau) + ' (' + str(ancien) + " "
-        classement = classement + "-"
+        if nouveau != "NA" and ancien != "NA":
+            classement = str(nouveau) + ' (' + str(ancien) + ""
+            if float(ancien)<float(nouveau):
+                classement=classement+"+";
+            else:
+                if float(ancien)>float(nouveau):
+                    classement = classement + "-";
+                else:
+                    classement = classement + "=";
+        else:
+            classement = str(nouveau)
     classement=classement+")"
     return classement
 

@@ -6,7 +6,7 @@ import shutil
 from datetime import datetime
 
 
-profiles_fqe=[93058,109637,35820,109989]
+profiles_fqe=[93058,109637,35820,109989,108578]
 
 
 print("quebec: Classement FQE:")

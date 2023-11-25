@@ -135,3 +135,4 @@ pgnanalysis/xoff_qc21_game_analysis.txt
 .idea/misc.xml
 .idea/chess-py.iml
 .idea/
+/chesscomdl/PGN/
