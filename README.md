@@ -1,8 +1,13 @@
 # chess-py
 
 Python tool to analyze chess at PGN Format.
-+ fide rating tracker
-+ FQE (quebec) rating tracker
++ chesscomdl : download games in pgn from chess.com for a specific user, set user into dlfromchess.com.py
++ chesstat : download pgn fro mlichess for a user and makes some opening stats
++ elocacl : elocalculator
++ fide rating tracker : follows fide rating
++ FQE (quebec) rating tracker for Quebec chess fed.
++ lichelldl : download pgn from lichess for a specific player
++ pgnanalysus : analyse pgn games with stockfish
 
 https://github.com/niklasf/chess-openings
 

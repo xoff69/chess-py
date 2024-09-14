@@ -18,16 +18,16 @@ file_name= 'fide.csv'
 #sauvegarde du fichier
 source=file_name
 destination=filesvgname(file_name)
-shutil.copyfile(source, destination)
+
 
 if os.path.isfile(file_name):
-
+    shutil.copyfile(source, destination)
     df_reference = pd.read_csv (file_name)
 else:
     print("Le fichier reference  n existe pas")
     df_reference = pd.DataFrame(columns=['profileId', 'Nom', 'Standard', 'Rapide', 'Blitz'])
 
-profiles=[45110565,659487,656410,26016460,434523,605506,608742,45166129]
+profiles=[45110565,659487,656410,26016460,434523,605506,608742,45166129,45120625,652007871,2658321]
 
 
 

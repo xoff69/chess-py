@@ -1,5 +1,5 @@
 K=20
-classement_depart=1431
+classement_depart=1662
 
 def evalNewRating(cl_adv,resultat):
     expected = 1 / (1 + 10 ** ((cl_adv - classement_depart) / 400))
@@ -7,7 +7,7 @@ def evalNewRating(cl_adv,resultat):
 
 
 # tournoi elo opponent
-elo_opp=[[1422,0],[1410,1],[1420,1],[1420,0],[1420,1]]
+elo_opp=[[1748,0],[1628,0.5],[1679,0],[1742,1],[1555,1]]
 
 # calcul cumul
 
